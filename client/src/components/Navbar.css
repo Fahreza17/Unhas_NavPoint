@@ -1,0 +1,63 @@
+.navbar-brand {
+  position: relative;
+  padding: 0;
+}
+
+.navbar-brand img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+.navbar .nav-link {
+  font-family: 'MonstserratBold', sans-serif;
+}
+
+.navbar-brand .logo-img {
+  transform: translateY(-5px);
+  /* Menyesuaikan efek keluar logo */
+  transition: transform 0.3s ease;
+  /* Efek transisi */
+}
+
+.navbar-brand .logo-img:hover {
+  transform: translateY(-8px);
+  /* Efek hover lebih jauh keluar */
+}
+
+.navbar .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: black;
+}
+
+.logo-img {
+  display: block;
+  margin: auto;
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: translateY(-8px);
+}
+
+@media (max-width: 768px) {
+  .navbar-brand .d-inline-block {
+    display: none!important;
+  }
+}
+
+/* CSS */
+.offcanvas-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  /* Tambahkan gaya lain sesuai kebutuhan Anda */
+}

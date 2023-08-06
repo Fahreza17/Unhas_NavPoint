@@ -1,0 +1,44 @@
+/* footer.css */
+
+/* Gaya untuk elemen footer */
+.footerStyle {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: -100px;
+  }
+  
+  /* Gaya untuk teks copyright */
+  .copyRightStyle {
+    margin-bottom: 1rem;
+  }
+  
+  /* Gaya untuk ikon media sosial */
+  .socialIconsStyle {
+    font-size: 24px;
+  }
+  
+  /* Gaya untuk ikon di dalam ikon media sosial */
+  .iconStyle {
+    color: #fff;
+    margin: 0 5px;
+  }
+  
+  /* Responsiveness for screens less than or equal to 600px width */
+  @media (max-width: 600px) {
+    .socialIconsStyle {
+      font-size: 20px;
+    }
+    .copyRightStyle {
+        font-size: 10px;
+      }
+  }
+  
+  /* Responsiveness for screens less than or equal to 400px width */
+  @media (max-width: 400px) {
+    .socialIconsStyle {
+      font-size: 16px;
+    }
+  }
+  

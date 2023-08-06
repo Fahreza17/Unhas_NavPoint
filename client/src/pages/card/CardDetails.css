@@ -1,0 +1,179 @@
+/* Add the following styles to your CSS file */
+.card-text-scroll {
+    max-height: 200px;
+    /* Set the maximum height of the scrollable area */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+}
+
+.scroll-content {
+    padding-right: 15px;
+    /* Add some padding to avoid content being hidden by the scrollbar */
+}
+
+.mb-4 {
+    width: auto;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 75px;
+    margin-top: 75px;
+}
+
+.row .card-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.cards-container .card-box:hover {
+    height: 475px;
+}
+
+.cards-container .card-box .card-img-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 300px;
+    height: 220px;
+    background: #040303;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.cards-container .card-box:hover .card-img-top {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0, 2);
+}
+
+.cards-container .card-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards-container .card-box .card-body {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 25px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.cards-container .card-box:hover .card-body {
+    top: 130px;
+    height: 400px;
+}
+
+.cards-container .card-box .card-body .card-title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.cards-container .card-box .card-body .card-text {
+    color: #333;
+}
+
+.cards-container .card-box .card-body .button-container {
+    position: relative;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+.cards-heading-container {
+    text-align: center;
+}
+
+.cards-heading-wrapper {
+    max-width: 50%;
+    /* Adjust the max-width value as needed */
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards-heading {
+    margin: 0;
+}
+
+.separator {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.highlight {
+    background-color: yellow;
+    /* Set the background color to highlight the text */
+    font-weight: bold;
+    /* Optionally, you can make the highlighted text bold */
+}
+
+@media (max-width : 425px) {
+    .row {
+        width: auto;
+    }
+
+
+    /* Media query for responsiveness */
+    @media (max-width: 768px) {
+        .cards-heading-wrapper .cards-heading {
+            font-size: large;
+        }
+    }
+
+    .cards-row {
+        align-items: center;
+        gap: 40px;
+    }
+
+    .row .card-box {
+        width: 300px;
+        height: 250px;
+    }
+
+    .cards-container .card-box .card-img-top {
+        width: 250px;
+        height: 150px;
+    }
+
+    .cards-container .card-box .card-body {
+        top: 200px;
+    }
+
+    .cards-container .card-box:hover .card-img-top {
+        top: -70px;
+        scale: 0.75;
+        box-shadow: 0 15px 45px rgba(0, 0, 0, 0, 2);
+    }
+
+    .cards-container .card-box:hover .card-body {
+        top: 100px;
+        height: 350px;
+    }
+
+    .cards-container .card-box .card-body .card-title {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: MonstserratBold;
+    src: url('./Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('./Poppins-SemiBold.ttf');
+}
