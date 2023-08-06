@@ -15,7 +15,7 @@ const CardDetails = () => {
 
   const fetchData = async () => {
     try {
-      const responseFakultas = await fetch('/api/data'); // Ganti dengan URL endpoint yang sesuai
+      const responseFakultas = await fetch('https://unhas-nav-point-server.vercel.app/api/data'); // Ganti dengan URL endpoint yang sesuai
       const jsonDataFakultas = await responseFakultas.json();
       const fakultasData = jsonDataFakultas.find(item => item.type === 'table' && item.name === 'fakultas');
       const fakultas = fakultasData ? fakultasData.data.find((item) => item.id_fakultas === fakultasId) : null;
@@ -25,7 +25,7 @@ const CardDetails = () => {
       const jsonDataGedung = await responseGedung.json();
       setGedungData(jsonDataGedung);
 
-      const responseRuangan = await fetch('/api/data'); // Ganti dengan URL endpoint yang sesuai
+      const responseRuangan = await fetch('https://unhas-nav-point-server.vercel.app/api/data'); // Ganti dengan URL endpoint yang sesuai
       const jsonDataRuangan = await responseRuangan.json();
       const ruanganData = jsonDataRuangan.find(item => item.type === 'table' && item.name === 'ruangan');
       setRuanganData(ruanganData.data);
