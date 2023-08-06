@@ -50,14 +50,9 @@
     margin-left: -20px;
   }
 
-  /*Accordion Style*/
-  .accordion .accordion-item .accordion-body{
-    text-align: justify;
-  }
-
-  .accordion .accordion-item .accordion-header .text-center {
-  text-align: center;
-}
+ .accordion {
+  margin-bottom: 20px;
+ }
   
   @media (max-width : 768px) {
     .carousel-caption-text {

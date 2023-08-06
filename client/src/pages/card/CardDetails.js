@@ -96,7 +96,8 @@ const CardDetails = () => {
                         <div className="scroll-content">
                           {Array.from(new Set(ruanganByLantai.map((ruangan) => ruangan.lantai_ruangan))).map((lantai) => (
                             <div key={lantai}>
-                              <p>Lantai {lantai}</p>
+                              <hr className="separator-Cards" />
+                              <p className="lantai">Lantai {lantai}</p>
                               <ul>
                                 {ruanganByLantai
                                   .filter((ruangan) => ruangan.lantai_ruangan === lantai)

@@ -1,0 +1,103 @@
+/* About.css */
+.about-container {
+    padding: 20px;
+  }
+  
+  .members-row {
+    margin-top: 20px;
+  }
+  
+  .member-col {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .member-circle {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  
+  .member-name {
+    font-weight: bold;
+  }
+  
+  .member-position {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .member-department {
+    color: #555;
+  }
+  
+  .coordinators-row {
+    margin-top: 40px;
+  }
+  
+  .coordinator-col {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .coordinator-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  
+  .coordinator-name {
+    font-weight: bold;
+  }
+  
+  .coordinator-position {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .coordinator-department {
+    color: #555;
+  }
+
+  .coordinator-image {
+    width: 148px;
+    height: 148px;
+  }
+  
+  .members-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .member {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .carousel-item .member-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .member-col, .coordinator-col {
+      xs: 12;
+      md: 6;
+    }
+  }
+  

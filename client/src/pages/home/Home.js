@@ -102,9 +102,10 @@ const Home = () => {
       </Container>
 
       <Container>
+        <Row>
         <Accordion flush>
 
-          <Accordion.Item eventKey="0">
+          <Accordion.Item eventKey="0" className="accordion-item">
             <Accordion.Header>
             <div className="text-center">Mental Health Festival</div>
             </Accordion.Header>
@@ -119,7 +120,7 @@ const Home = () => {
             </Accordion.Body>
           </Accordion.Item>
 
-          <Accordion.Item eventKey="1">
+          <Accordion.Item eventKey="1" className="accordion-item">
             <Accordion.Header>SDGS UNHAS</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -132,7 +133,7 @@ const Home = () => {
             </Accordion.Body>
           </Accordion.Item>
 
-          <Accordion.Item eventKey="2">
+          <Accordion.Item eventKey="2" className="accordion-item">
             <Accordion.Header>UNHAS MAPPING</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -146,6 +147,7 @@ const Home = () => {
           </Accordion.Item>
 
         </Accordion>
+        </Row>
       </Container>
       <Footer />
     </div>
