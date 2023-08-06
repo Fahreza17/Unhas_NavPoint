@@ -1,5 +1,30 @@
 {
     "version": 2,
     "builds": [{ "src": "./index.js", "use": "@vercel/node"}],
-    "routes": [{ "src": "./(.*)", "dest": "/"}]
+    "routes": [
+        {
+          "src": "/api/data",
+          "dest": "server.js"
+        },
+        {
+          "src": "/api/search",
+          "dest": "server.js"
+        },
+        {
+          "src": "/api/fakultas/:fakultasId",
+          "dest": "server.js"
+        },
+        {
+          "src": "/api/gedung",
+          "dest": "server.js"
+        },
+        {
+          "src": "/api/gedung/:fakultasId",
+          "dest": "server.js"
+        },
+        {
+          "src": "/(.*)",
+          "dest": "server.js"
+        }
+      ]
 }
