@@ -1,3 +1,4 @@
+import LoadingSpinner from '../../components/LoadingSpinner';
 import React, { useState, useEffect } from 'react';
 import NavbarComp from '../../components/NavbarComp';
 import Footer from '../../components/Footer'
@@ -8,6 +9,7 @@ import './CardDetails.css';
 
 const CardDetails = () => {
   const { fakultasId } = useParams();
+  const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [fakultas, setFakultasData] = useState(null);
   const [gedungData, setGedungData] = useState([]);
@@ -29,8 +31,11 @@ const CardDetails = () => {
       const jsonDataRuangan = await responseRuangan.json();
       const ruanganData = jsonDataRuangan.find(item => item.type === 'table' && item.name === 'ruangan');
       setRuanganData(ruanganData.data);
+      setLoading(false);
+
     } catch (error) {
       console.error('Error fetching data:', error);
+      setLoading(false);
     }
   };
 
@@ -66,6 +71,10 @@ const CardDetails = () => {
   return (
     <div>
       <NavbarComp />
+      {loading ? (
+        <LoadingSpinner />
+      ) : (
+        <>
       <div className="cards-container">
         <div className="cards-heading-wrapper">
           <h1 className="cards-heading">
@@ -96,7 +105,7 @@ const CardDetails = () => {
                         <div className="scroll-content">
                           {Array.from(new Set(ruanganByLantai.map((ruangan) => ruangan.lantai_ruangan))).map((lantai) => (
                             <div key={lantai}>
-                              <hr className="separator-Cards" />
+                              <div className="hr-line"></div>
                               <p className="lantai">Lantai {lantai}</p>
                               <ul>
                                 {ruanganByLantai
@@ -123,6 +132,8 @@ const CardDetails = () => {
         </Row>
       </div>
       <Footer/>
+      </>
+      )}
     </div>
   );
 };

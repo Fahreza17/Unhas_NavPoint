@@ -134,6 +134,11 @@ li{
     /* Optionally, you can make the highlighted text bold */
 }
 
+.hr-line {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+
 @media (max-width : 425px) {
     .row {
         width: auto;

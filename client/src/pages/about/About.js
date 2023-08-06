@@ -108,7 +108,7 @@ function About() {
     <div>
       <NavbarComp />
       <Container className="about-container">
-        <h1>Tentang Kami</h1>
+        <h1 className="judul-about">Tentang Kami</h1>
         <Row className="members-row">
           {members.map((member, index) => (
             <Col key={index} xs={6} md={3} className="member-col">
@@ -121,12 +121,12 @@ function About() {
             </Col>
           ))}
         </Row>
-        <h2>Koordinator</h2>
+        <h2 className="judul-about">Koordinator</h2>
         <Row className="coordinators-row">
           {coordinators.map((coordinator, index) => (
             <Col key={index} xs={12} md={6} className="coordinator-col">
               <div className="coordinator-circle">
-                <Image src={coordinator.image} roundedCircle className="coordinator-image" />
+                <Image src={coordinator.image} roundedCircle className="coordinator-image " />
               </div>
               <p className="coordinator-name">{coordinator.name}</p>
               <p className="coordinator-position">{coordinator.position}</p>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import LoadingSpinner from '../../components/LoadingSpinner';
 import NavbarComp from '../../components/NavbarComp';
 import Footer from '../../components/Footer'
 import SearchBar from '../../components/SearchBar';
@@ -7,6 +8,7 @@ import { Link } from 'react-router-dom';
 import './Cards.css';
 
 const Cards = () => {
+  const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredFakultasItems, setFilteredFakultasItems] = useState([]);
 
@@ -22,9 +24,11 @@ const Cards = () => {
         );
 
         setFilteredFakultasItems(filteredFakultas);
+        setLoading(false);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
+        setLoading(false);
       });
   }, [searchQuery]);
 
@@ -37,6 +41,10 @@ const Cards = () => {
   return (
     <div>
       <NavbarComp />
+      {loading ? (
+        <LoadingSpinner />
+      ) : (
+        <>
       <div className="cards-container">
         <h1 className="cards-heading">Where are you going?</h1>
         <hr className="separator" />
@@ -74,6 +82,8 @@ const Cards = () => {
         </Row>
       </div>
       <Footer/>
+      </>
+      )}
     </div>
   );
 };

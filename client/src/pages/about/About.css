@@ -1,4 +1,9 @@
-/* About.css */
+.judul-about {
+  justify-content: center;
+  text-align: center;
+}
+
+
 .about-container {
     padding: 20px;
   }
@@ -92,6 +97,7 @@
     width: 100px;
     height: 100px;
   }
+  
   
   /* Responsive styling */
   @media (max-width: 768px) {

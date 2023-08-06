@@ -1,4 +1,5 @@
 import React from 'react'
+import LoadingSpinner from '../../components/LoadingSpinner';
 import { Carousel, Container, Row, Col, Accordion } from 'react-bootstrap'
 import NavbarComp from '../../components/NavbarComp'
 import Footer from '../../components/Footer'
