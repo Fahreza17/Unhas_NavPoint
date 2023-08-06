@@ -10,7 +10,7 @@ const Cards = () => {
   const [filteredFakultasItems, setFilteredFakultasItems] = useState([]);
 
   useEffect(() => {
-    fetch('/api/data') // Ganti dengan URL endpoint yang sesuai
+    fetch('https://unhas-nav-point-server.vercel.app/api/data') // Ganti dengan URL endpoint yang sesuai
       .then((response) => response.json())
       .then((jsonData) => {
         const fakultasData = jsonData.find((item) => item.type === 'table' && item.name === 'fakultas');
