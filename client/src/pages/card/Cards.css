@@ -98,9 +98,15 @@ html,body {
   
   .cards-container .card .card-body .button-container {
     position: relative;
-    display: inline-block;
+    display: inline-block!important;
+    margin: -9px;
     padding: 12px 25px;
     border-radius: 8px;
+    justify-content: center;
+  }
+
+  .btn-primary {
+    margin: 5px;
   }
   
   
@@ -145,7 +151,7 @@ html,body {
     }
   
     .cards-container .card:hover .card-body {
-      top: 100px;
+      top: 110px;
       height: 190px;
     }
     

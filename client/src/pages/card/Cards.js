@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NavbarComp from '../../components/NavbarComp';
+import Footer from '../../components/Footer'
 import SearchBar from '../../components/SearchBar';
 import { Card, Button, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -52,12 +53,14 @@ const Cards = () => {
                 <Card.Body>
                   <Card.Title>{item.nama_fakultas}</Card.Title>
                   <Card.Text>
+                    <Link to= {item.deskripsi_fakultas}>
                     {item.deskripsi_fakultas.length > 50
                       ? `${item.deskripsi_fakultas.substring(0, 50)}...`
                       : item.deskripsi_fakultas}
+                    </Link>
                   </Card.Text>
                   <div className="button-container d-flex justify-content-end">
-                    <Link to={`/CardDetails/${item.id_fakultas}`} className="btn-primary">
+                    <Link to={`/CardDetails/${item.id_fakultas}`} className="btn btn-primary">
                       Detail
                     </Link>
                     <Button variant="primary" onClick={() => handleMapsClick(item)}>
@@ -70,6 +73,7 @@ const Cards = () => {
           ))}
         </Row>
       </div>
+      <Footer/>
     </div>
   );
 };

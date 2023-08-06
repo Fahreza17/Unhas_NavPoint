@@ -34,6 +34,30 @@
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
   }
+
+  .dpk{
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  .dpk-title{
+    font-size: x-large;
+    margin-left: -20px;
+  }
+
+  .dpk-title-child{
+    font-size: x-large;
+    margin-left: -20px;
+  }
+
+  /*Accordion Style*/
+  .accordion .accordion-item .accordion-body{
+    text-align: justify;
+  }
+
+  .accordion .accordion-item .accordion-header .text-center {
+  text-align: center;
+}
   
   @media (max-width : 768px) {
     .carousel-caption-text {

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import NavbarComp from '../../components/NavbarComp';
+import Footer from '../../components/Footer'
 import SearchBar from '../../components/SearchBar';
 import { useParams } from 'react-router-dom';
 import { Card, Button, Col, Row } from 'react-bootstrap';
-import logo from '../../components/images/LOGO.png';
 import './CardDetails.css';
 
 const CardDetails = () => {
@@ -88,7 +88,7 @@ const CardDetails = () => {
             return (
               <Col key={gedung.id_gedung} md={4} sm={4} lg={3} className="mb-4">
                 <Card className="card-box">
-                  <Card.Img variant="top" src={logo} />
+                  <Card.Img variant="top" src={gedung.gambar_gedung} />
                   <Card.Body>
                     <Card.Title>{gedung.nama_gedung}</Card.Title>
                     <Card.Text>
@@ -121,6 +121,7 @@ const CardDetails = () => {
           })}
         </Row>
       </div>
+      <Footer/>
     </div>
   );
 };
