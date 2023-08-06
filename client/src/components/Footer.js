@@ -5,7 +5,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer >
+    <footer>
       <div className="footerStyle">
         <div className="socialIconsStyle">
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
