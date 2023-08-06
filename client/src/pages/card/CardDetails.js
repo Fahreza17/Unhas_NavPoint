@@ -21,7 +21,7 @@ const CardDetails = () => {
       const fakultas = fakultasData ? fakultasData.data.find((item) => item.id_fakultas === fakultasId) : null;
       setFakultasData(fakultas);
 
-      const responseGedung = await fetch(`https://unhas-nav-point-server.vercel.app/api/fakultas/:fakultasId=${fakultasId}`); // Ganti dengan URL endpoint yang sesuai
+      const responseGedung = await fetch(`https://unhas-nav-point-server.vercel.app/api/gedung/:fakultasId=${fakultasId}`); // Ganti dengan URL endpoint yang sesuai
       const jsonDataGedung = await responseGedung.json();
       setGedungData(jsonDataGedung);
 
