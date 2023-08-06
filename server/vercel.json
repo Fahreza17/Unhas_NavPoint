@@ -4,27 +4,27 @@
     "routes": [
         {
           "src": "/api/data",
-          "dest": "server.js"
+          "dest": "index.js"
         },
         {
           "src": "/api/search",
-          "dest": "server.js"
+          "dest": "index.js"
         },
         {
           "src": "/api/fakultas/:fakultasId",
-          "dest": "server.js"
+          "dest": "index.js"
         },
         {
           "src": "/api/gedung",
-          "dest": "server.js"
+          "dest": "index.js"
         },
         {
           "src": "/api/gedung/:fakultasId",
-          "dest": "server.js"
+          "dest": "index.js"
         },
         {
           "src": "/(.*)",
-          "dest": "server.js"
+          "dest": "index.js"
         }
       ]
 }
