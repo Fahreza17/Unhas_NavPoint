@@ -26,6 +26,7 @@
     align-items: center;
     border: 2px solid #ccc;
     border-radius: 50%;
+    overflow: hidden;
   }
   
   
@@ -60,6 +61,14 @@
     align-items: center;
     border: 2px solid #ccc;
     border-radius: 50%;
+    overflow: hidden; /* Menghindari gambar keluar dari lingkaran */
+  }
+  
+  .coordinator-image {
+    width: 120%; /* Gambar akan memenuhi lebar kotak lingkaran */
+    height: auto; /* Menghindari distorsi gambar */
+    max-width: 300px; /* Tetapkan ukuran maksimum gambar */
+    margin-top: 20px;
   }
   
   
@@ -76,10 +85,7 @@
     color: #555;
   }
 
-  .coordinator-image {
-    width: 148px;
-    height: 148px;
-  }
+  
   
   .members-list {
     display: flex;
@@ -94,8 +100,10 @@
   }
 
   .carousel-item .member-image {
-    width: 100px;
-    height: 100px;
+  width: 150%;
+  height: auto;
+  max-width: 300px;
+  margin-top: 30px;
   }
   
   

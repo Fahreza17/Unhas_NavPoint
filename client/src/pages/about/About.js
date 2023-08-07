@@ -84,17 +84,17 @@ const coordinators = [
     name: 'Muh. Yusril Arya',
     position: 'Koordinator Divisi Dokumentasi & Sosial Media',
     department: 'Divisi Dokumentasi & Sosial Media',
-    image: 'url_koordinator_dokumentasi.jpg',
+    image: 'https://iili.io/HtEsbTu.png',
     members: [
-      { name: 'Muh. Yasril Aldilah Sudarmono', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota26.jpg' },
-      { name: 'Muhammad Naufal Hakim', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota27.jpg' },
-      { name: 'Aisyah Aliyah Rahmah B.Mage', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota28.jpg' },
-      { name: 'Kenzy Noel Tristan Sarodjie', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota29.jpg' },
-      { name: 'Adella Bellatrix Zephaniah Ganap', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota30.jpg' },
-      { name: 'Ahmad Jalu Fahreza Nur Hakim', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota31.jpg' },
-      { name: 'Yosheline Gayatri Dwimutiara Appa', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota32.jpg' },
-      { name: 'Naifah Putri', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota33.jpg' },
-      { name: 'Andi Mohammad Al Fariz Irsam Pawae', department: 'Divisi Dokumentasi & Sosial Media', image: 'url_anggota34.jpg' },
+      { name: 'Muh. Yasril Aldilah Sudarmono', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtELJ4V.png' },
+      { name: 'Muhammad Naufal Hakim', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtELHEQ.png' },
+      { name: 'Aisyah Aliyah Rahmah B.Mage', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsPEl.png' },
+      { name: 'Kenzy Noel Tristan Sarodjie', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEL9Cx.png' },
+      { name: 'Adella Bellatrix Zephaniah Ganap', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEs6B4.png' },
+      { name: 'Ahmad Jalu Fahreza Nur Hakim', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsmhb.png' },
+      { name: 'Yosheline Gayatri Dwimutiara Appa', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsi42.png' },
+      { name: 'Naifah Putri', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEspQj.png' },
+      { name: 'Andi Mohammad Al Fariz Irsam Pawae', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsL2S.png' },
       // Tambahkan anggota lainnya di sini
     ]
   },
@@ -135,8 +135,9 @@ function About() {
               <Carousel>
                 {coordinator.members.map((member, index) => (
                   <Carousel.Item key={index}>
+                    <div className="member-circle">
                       <Image src={member.image} roundedCircle className="member-image" />
-                    
+                      </div>
                       <p className="member-name">{member.name}</p>
                       <p className="member-department">{member.department}</p>
                     
