@@ -1,117 +1,152 @@
 .judul-about {
+  font-family: 'MonstserratBold', sans-serif;
+  letter-spacing: 1px;
   justify-content: center;
   text-align: center;
 }
 
 
 .about-container {
-    padding: 20px;
-  }
-  
-  .members-row {
-    margin-top: 20px;
-  }
-  
-  .member-col {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .member-circle {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #ccc;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-  
-  
-  .member-name {
-    font-weight: bold;
-  }
-  
-  .member-position {
-    font-style: italic;
-    color: #888;
-  }
-  
-  .member-department {
-    color: #555;
-  }
-  
-  .coordinators-row {
-    margin-top: 40px;
-  }
-  
-  .coordinator-col {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .coordinator-circle {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #ccc;
-    border-radius: 50%;
-    overflow: hidden; /* Menghindari gambar keluar dari lingkaran */
-  }
-  
-  .coordinator-image {
-    width: 120%; /* Gambar akan memenuhi lebar kotak lingkaran */
-    height: auto; /* Menghindari distorsi gambar */
-    max-width: 300px; /* Tetapkan ukuran maksimum gambar */
-    margin-top: 20px;
-  }
-  
-  
-  .coordinator-name {
-    font-weight: bold;
-  }
-  
-  .coordinator-position {
-    font-style: italic;
-    color: #888;
-  }
-  
-  .coordinator-department {
-    color: #555;
-  }
+  padding: 20px;
+}
 
-  
-  
-  .members-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .member {
-    text-align: center;
-    margin: 10px;
-  }
+.members-row {
+  margin-top: 20px;
+  gap: 5px;
+}
 
-  .carousel-item .member-image {
+.member-col {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.member-circle {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.member-name {
+  font-family: 'MonstserratBold', sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.member-position {
+  font-family: 'MonstserratBold', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+.member-department {
+  color: #555;
+  margin-top: -10px;
+}
+
+.coordinators-row {
+  margin-top: 40px;
+}
+
+.coordinator-col {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.coordinator-circle {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  /* Menghindari gambar keluar dari lingkaran */
+}
+
+.coordinator-image {
+  width: 140%;
+  /* Gambar akan memenuhi lebar kotak lingkaran */
+  height: auto;
+  /* Menghindari distorsi gambar */
+  max-width: 300px;
+  /* Tetapkan ukuran maksimum gambar */
+  margin-top: 30px;
+}
+
+
+.coordinator-name {
+  font-family: 'MonstserratBold', sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.coordinator-position {
+  font-family: 'MonstserratBold', sans-serif;
+  letter-spacing: 1px;
+}
+
+.coordinator-department {
+  color: #555;
+  margin-top: -10px;
+}
+
+
+
+.members-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.member {
+  text-align: center;
+  margin: 10px;
+}
+
+.carousel-item .member-image {
   width: 150%;
   height: auto;
   max-width: 300px;
-  margin-top: 30px;
+  margin-top: 40px;
+}
+
+.inti-circle {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  /* Menghindari gambar keluar dari lingkaran */
+}
+
+.inti-image {
+  width: 130%;
+  height: auto;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+
+  .member-col,
+  .coordinator-col {
+    xs: 12;
+    md: 6;
   }
-  
-  
-  /* Responsive styling */
-  @media (max-width: 768px) {
-    .member-col, .coordinator-col {
-      xs: 12;
-      md: 6;
-    }
-  }
-  
+}

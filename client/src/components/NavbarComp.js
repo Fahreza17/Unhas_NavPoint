@@ -4,7 +4,6 @@ import './fonts/font.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
-import logo from './images/LOGO.png';
 
 const NavbarComp = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
@@ -33,7 +32,7 @@ const NavbarComp = () => {
   }, []);
 
   return (
-    <Navbar bg="danger" data-bs-theme="dark" expand="lg">
+    <Navbar data-bs-theme="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
           {isMobile ? (
@@ -41,7 +40,7 @@ const NavbarComp = () => {
             </span>
           ) : (
             <img
-              src={logo}
+              src="https://iili.io/HtW8Omb.md.png"
               width="90"
               height="90"
               className="d-inline-block align-top logo-img"
@@ -64,7 +63,7 @@ const NavbarComp = () => {
       <Offcanvas show={showOffcanvas} onHide={() => setShowOffcanvas(false)} placement="end">
         <Offcanvas.Header closeButton>
         <img
-              src={logo}
+              src="https://iili.io/HtW8Omb.md.png"
               width="50"
               height="50"
               className="d-inline-block align-top offcanvas-logo"

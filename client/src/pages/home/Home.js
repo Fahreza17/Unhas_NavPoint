@@ -5,7 +5,6 @@ import NavbarComp from '../../components/NavbarComp'
 import Footer from '../../components/Footer'
 import '../../components/fonts/font.css'
 import './Home.css'
-import '../../components/fonts/font.css'
 import * as ImgList from '../../components/ImageList'
 
 const Home = () => {
