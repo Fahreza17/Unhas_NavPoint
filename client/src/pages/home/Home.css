@@ -14,8 +14,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 75px;
-  margin-top: 75px;
+  margin-top: 50px;
   margin-bottom: 40px;
 }
 
@@ -68,7 +67,6 @@
 }
 
 .dpk-img {
-  max-width: 100%;
   height: auto;
   object-fit: cover;
   margin-top: -220px;
@@ -89,8 +87,11 @@
   letter-spacing: 5px;
   font-size: x-large;
   text-align: center;
-  padding-bottom: 0px;
 
+}
+
+.dpk-title {
+  font-family: 'Poppins', sans-serif;
 }
 
 .dpk-title-child {
@@ -107,6 +108,11 @@
 
 .content-child {
   text-align: justify;
+}
+
+.content-title {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .apa-Title-container {
@@ -178,6 +184,7 @@
     height: 200px;
     position: relative;
     overflow: hidden;
+    margin-right: none;
   }
 
   .dpk-img {
@@ -202,7 +209,15 @@
   }
 
   .dpk-row{
-    gap: 45px;
+    gap: 60px;
+  }
+
+  .dpk-col {
+    width: auto;
+  }
+
+  .what-col {
+    width: auto;
   }
 }
 

@@ -76,7 +76,7 @@ const Home = () => {
             </div>
           </Col>
 
-          <Col sm={6} md={5}>
+          <Col sm={6} md={5} className="dpk-col">
             <div className="dpk-img-container">
               <img className="dpk-img" src="https://iili.io/Ht8JDvf.md.png" alt='DPK' />
               <div className="dpk-img-border"></div>
@@ -99,7 +99,7 @@ const Home = () => {
         </Col>
 
         <Row className="what-row">
-          <Col sm={6} md={4}>
+          <Col sm={6} md={4} className="what-row">
             <div className="what-img-container">
               <img className="what-img" src="https://iili.io/Ht8fyjj.md.jpg" />
               <div className="what-img-border"></div>
