@@ -86,6 +86,7 @@ const coordinators = [
     department: 'Divisi PUBDOK',
     image: 'https://iili.io/HtEsbTu.md.png',
     members: [
+      { name: 'Andi Mohammad Al Fariz Irsam Pawae', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsL2S.th.png' },
       { name: 'Muh. Yasril Aldilah Sudarmono', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtELJ4V.th.png' },
       { name: 'Muhammad Naufal Hakim', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtELHEQ.th.png' },
       { name: 'Aisyah Aliyah Rahmah B.Mage', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsPEl.th.png' },
@@ -94,7 +95,6 @@ const coordinators = [
       { name: 'Ahmad Jalu Fahreza Nur Hakim', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsmhb.th.png' },
       { name: 'Yosheline Gayatri Dwimutiara Appa', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsi42.th.png' },
       { name: 'Naifah Putri', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEspQj.th.png' },
-      { name: 'Andi Mohammad Al Fariz Irsam Pawae', department: 'Divisi Dokumentasi & Sosial Media', image: 'https://iili.io/HtEsL2S.th.png' },
       // Tambahkan anggota lainnya di sini
     ]
   },
