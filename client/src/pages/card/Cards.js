@@ -53,7 +53,7 @@ const Cards = () => {
           handleSearchChange={(e) => setSearchQuery(e.target.value)}
           placeholderText="Search by Fakultas"
         />
-        <Row>
+        <Row className="cards-row">
           {filteredFakultasItems.map((item) => (
             <Col key={item.id_fakultas} xl={3} lg={4} md={5} sm={12} className="mb-4">
               <Card>

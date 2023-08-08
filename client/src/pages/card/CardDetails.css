@@ -17,7 +17,7 @@ li{
     width: auto;
 }
 
-.row {
+.cards-row .row {
     position: relative;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ li{
     margin-top: 75px;
 }
 
-.row .card-box {
+.cards-row .row .card-box {
     position: relative;
     display: flex;
     justify-content: center;
@@ -140,7 +140,7 @@ li{
   }
 
 @media (max-width : 425px) {
-    .row {
+    .cards-row .row {
         width: auto;
     }
 
@@ -157,7 +157,7 @@ li{
         gap: 40px;
     }
 
-    .row .card-box {
+    .cards-row .row .card-box {
         width: 300px;
         height: 250px;
     }

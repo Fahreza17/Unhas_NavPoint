@@ -1,88 +1,211 @@
-/* Home.css */
+.dpk-row{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 75px;
+  margin-top: 75px;
+}
+
+.what-row{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 75px;
+  margin-top: 75px;
+  margin-bottom: 40px;
+}
+
 .navbar {
-    z-index: 1;
-  }
-  
-  .carousel-container {
-    position: relative; /* Set the position of the carousel container to relative */
-    z-index: 0; /* Set the z-index value to 0 for the carousel container */
-  }
-  
-  
-  .carousel-item img {
-    max-height: 600px; /* Set the maximum height of the Carousel items */
-  }
-  
+  z-index: 1;
+}
+
+.carousel-container {
+  position: relative;
+  /* Set the position of the carousel container to relative */
+  z-index: 0;
+  /* Set the z-index value to 0 for the carousel container */
+}
+
+
+.carousel-item img {
+  max-height: 600px;
+  /* Set the maximum height of the Carousel items */
+}
+
+.carousel-caption-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-caption .kkn {
+  font-family: 'MonstserratBold', sans-serif;
+  font-size: 65px;
+  letter-spacing: 5px;
+}
+
+.carousel-caption .Smart {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+/* Home.css */
+
+.dpk-img-container {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dpk-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: -220px;
+}
+
+.dpk-img-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid rgba(0, 0, 0, 0.2);
+  /* Ubah warna dan ukuran border sesuai keinginan Anda */
+}
+
+.dpk-Title-container {
+  font-family: 'MonstserratBold', sans-serif;
+  letter-spacing: 5px;
+  font-size: x-large;
+  text-align: center;
+  padding-bottom: 0px;
+
+}
+
+.dpk-title-child {
+  text-align: justify;
+}
+
+.dpk-info-container {
+  margin-left: -30%;
+}
+
+.accordion {
+  margin-bottom: 20px;
+}
+
+.content-child {
+  text-align: justify;
+}
+
+.apa-Title-container {
+  font-size: x-large;
+}
+
+.apa-Title {
+  margin-top: 40px;
+  font-family: 'MonstserratBold', sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.what-img-container {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.what-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: -100px;
+}
+
+/* .what-img-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid rgba(0, 0, 0, 0.2);
+} */
+
+@media (max-width : 768px) {
   .carousel-caption-text {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px;
+    padding: 5px;
     color: white;
     width: 100%;
     text-align: center;
   }
-  
+
   .carousel-caption .kkn {
     font-family: 'MonstserratBold', sans-serif;
-    font-size: 65px;
-    letter-spacing: 5px;
+    font-size: 25px;
+    letter-spacing: 2px;
   }
-  
+
   .carousel-caption .Smart {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 8px;
+    margin-top: -8px;
   }
 
-  .dpk{
+  .dpk-info-container {
+    margin-top: -40px;
     text-align: center;
-    font-size: xx-large;
+    margin-left: 0%;
   }
 
-  .dpk-title{
-    font-size: x-large;
-    margin-left: -20px;
+  .dpk-img-container {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
   }
 
-  .dpk-title-child{
-    font-size: x-large;
-    margin-left: -20px;
-  }
-
- .accordion {
-  margin-bottom: 20px;
- }
-  
-  @media (max-width : 768px) {
-    .carousel-caption-text {
-      position: absolute;
-      top: 60%;
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 5px;
-      color: white;
-      width: 100%;
-      text-align: center;
-    }
-    
-    .carousel-caption .kkn {
-      font-family: 'MonstserratBold', sans-serif;
-      font-size: 25px;
-      letter-spacing: 2px;
-    }
-    
-    .carousel-caption .Smart {
-      font-family: 'Poppins', sans-serif;
-      font-size: 8px;
-      margin-top: -8px;
-    }
-  }
-  
-  .artikel-container{
-    display: grid;
-  }
-  
-  .content-img {
+  .dpk-img {
     max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: -170px;
   }
+
+  .what-img-container {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .what-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: -100px;
+  }
+
+  .dpk-row{
+    gap: 45px;
+  }
+}
+
+.artikel-container {
+  display: grid;
+}
