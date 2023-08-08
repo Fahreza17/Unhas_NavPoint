@@ -66,7 +66,7 @@ const Home = () => {
       <Container>
         <Row>
           <Col sm={6} md={4}>
-            <img className="dpk-img" src="https://pbs.twimg.com/profile_images/1217974695/n1565582747_30082716_2483696_400x400.jpg" alt='DPK' />
+            <img className="dpk-img" src="" alt='DPK' />
           </Col>
           <Col sm={6} md={6}>
             <h1 className="dpk">DPK KKNT Smart Campus Tamalanrea Makassar GEL.110</h1>
