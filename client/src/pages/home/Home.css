@@ -150,6 +150,20 @@
   border: 10px solid rgba(0, 0, 0, 0.2);
 } */
 
+.map-unhas {
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.gambar-proker {
+  display: block; /* Menghilangkan margin bawah yang tidak diinginkan */
+  margin: 0 auto; /* Untuk membuat gambar berada di tengah-tengah */
+  max-width: 100%; /* Gambar akan merespons ukuran layar */
+  width: 300px;
+  height: auto;
+
+}
+
 @media (max-width : 768px) {
   .carousel-caption-text {
     position: absolute;
