@@ -9,7 +9,7 @@ const members = [
   {
     name: 'Muhammad Addeta Rukmadi',
     position: 'Ketua KKN',
-    department: 'TEKNIK KOMPUTER',
+    department: 'Teknik Informatika',
     image: 'https://iili.io/HtV3Jpa.md.png'
   },
   {
@@ -144,7 +144,7 @@ function About() {
         <h2 className="judul-about">KOORDINATOR</h2>
         <Row className="coordinators-row">
           {coordinators.map((coordinator, index) => (
-            <Col key={index} xs={12} md={4} className="coordinator-col">
+            <Col key={index} xs={12} md={6} className="coordinator-col">
               <p className="coordinator-position">{coordinator.position}</p>
               <div className="coordinator-circle">
                 <Image src={coordinator.image} roundedCircle className="coordinator-image " />
