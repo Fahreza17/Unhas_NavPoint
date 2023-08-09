@@ -92,7 +92,7 @@ const coordinators = [
       { name: 'Aisyah Aliyah Rahmah B.Mage', department: 'Agribisnis', image: 'https://iili.io/HtEsPEl.th.png' },
       { name: 'Kenzy Noel Tristan Sarodjie', department: 'Akuntansi', image: 'https://iili.io/HtEL9Cx.th.png' },
       { name: 'Adella Bellatrix Zephaniah Ganap', department: 'Statistika', image: 'https://iili.io/HtEs6B4.th.png' },
-      { name: 'Ahmad Jalu Fahreza Nur Hakim', department: 'Sistem Informasi', image: 'https://iili.io/HtEsmhb.th.png' },
+      { name: 'Ahmad Jalu Fahreza Nur Hakim', department: 'Sistem Informasi', image: 'https://iili.io/HtylPqv.gif' },
       { name: 'Yosheline Gayatri Dwimutiara Appa', department: 'Biologi', image: 'https://iili.io/HtEsi42.th.png' },
       { name: 'Naifah Putri', department: 'Statistika', image: 'https://iili.io/HtEspQj.th.png' },
       // Tambahkan anggota lainnya di sini
@@ -104,6 +104,7 @@ const coordinators = [
 
 
 function About() {
+  const targetMemberName = "Ahmad Jalu Fahreza Nur Hakim";
   return (
     <div>
       <NavbarComp />
@@ -154,18 +155,20 @@ function About() {
               <hr></hr>
               <div>
                 <p className="member-name">ANGGOTA</p>
-              <Carousel indicators={false}>
-                {coordinator.members.map((member, index) => (
-                  <Carousel.Item key={index}>
-                    <div className="member-circle">
-                      <Image src={member.image} roundedCircle className="member-image" />
+                <Carousel indicators={false}>
+                  {coordinator.members.map((member, index) => (
+                    <Carousel.Item key={index}>
+                      <div className={`member-circle ${member.name === targetMemberName ? 'target-member' : ''}`}>
+                      <Image src={member.image} className={`member-image ${member.name === targetMemberName ? 'target-member-image' : ''}`} />
                       </div>
-                      <p className="member-name">{member.name}</p>
+                      <p className={`member-name ${member.name === targetMemberName ? 'target-member-name' : ''}`}>
+                        {member.name}
+                      </p>
                       <p className="member-department">{member.department}</p>
                       <hr></hr>
-                  </Carousel.Item>
-                ))}
-              </Carousel>
+                    </Carousel.Item>
+                  ))}
+                </Carousel>
               </div>
             </Col>
           ))}
