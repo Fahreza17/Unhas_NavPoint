@@ -85,7 +85,7 @@ const Home = () => {
           <Col sm={6} md={3} >
             <div className="dpk-info-container">
               <h3 className="dpk-title">Amril Hans, S.AP., MPA </h3>
-              <p className="dpk-title-child">Amril Hans, S.AP., MPA, seorang DPK di KKNT GEL.110 Smart Campus Tamalanrea Makassar, adalah pendamping berpengalaman dalam proyek KKN kami. Dengan jaringan yang luas, beliau membantu kami meraih persetujuan dari WR 1 Prof. drg. Muhammad Ruslin MKes PhD SpBM(K) dan memberikan bimbingan berharga dalam pengambilan keputusan. Keahlian dan pengalaman Amril Hans telah berkontribusi signifikan terhadap kelancaran serta kesuksesan proyek kami.</p>
+              <p className="dpk-title-child">Amril Hans, S.AP., MPA, seorang Dosen Pembimbing KKN di KKNT GEL.110 Smart Campus Tamalanrea Makassar, merupakan pendamping berpengalaman dalam proyek KKN kami. Dengan jaringan yang luas, beliau membantu kami memperoleh persetujuan dari WR 1 Prof. drg. Muhammad Ruslin, M.Kes., Ph.D., SpBM(K) serta memberikan bimbingan berharga dalam pengambilan keputusan. Keahlian dan pengalaman Amril Hans telah memberikan kontribusi yang signifikan terhadap kelancaran serta kesuksesan proyek kami.</p>
             </div>
           </Col>
         </Row>
@@ -156,51 +156,124 @@ const Home = () => {
               <Accordion.Header>UNHAS MAPPING</Accordion.Header>
               <Accordion.Body>
                 <div className="content-container">
-                  <div className="image-content">
-                    <div className="image-pair">
-                      {/* <img src="gambar1.jpg" alt="Gambar 1" className="gambar-proker" /> */}
-                      <p className="map-unhas">
-                        Salah satu proker KKN kami adalah pengembangan Website Navigation kampus dengan QR code untuk memudahkan mahasiswa mencari ruangan dan titik lokasi di kampus, menjawab masalah kurangnya pengetahuan tentang layout kampus terutama bagi mahasiswa baru.
-                      </p>
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        {/* Repeat for other images */}
+                      </Carousel>
                     </div>
-
-                    <div className="image-pair">
-                      <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2"  className="gambar-proker"/>
-
+                    <div className="text-content">
                       <p className="map-unhas">
                         Tim KKN kami membagi diri menjadi empat kelompok yang bertugas untuk mendata ruangan-ruangan di berbagai fakultas di kampus. Pengumpulan data dilakukan dengan menggunakan aplikasi Avenza, di mana kami memasukkan informasi berupa nama ruangan, koordinat latitude dan longitude, serta deskripsi lantai dari setiap ruangan. Selama hampir dua minggu, kami mengumpulkan data ini secara komprehensif, juga melengkapi informasi dengan gambar-gambar yang mendukung.
                       </p>
                     </div>
+                  </div>
 
-                    <div className="image-pair">
-                      <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker" />
+                  <div className="content-pair">
+                  <div className="carousel-container-proker">
+                    <Carousel fade>
+                      <Carousel.Item>
+                        <div className="image-content">
+                          <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                        </div>
+                      </Carousel.Item>
+
+                      <Carousel.Item>
+                        <div className="image-content">
+                          <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                        </div>
+                      </Carousel.Item>
+                      {/* Repeat for other images */}
+                    </Carousel>
+                    </div>
+                    <div className="text-content">
                       <p className="map-unhas">
                         Setelah tahap pengumpulan data selesai, kami melanjutkan ke proses pengolahan data. Semua informasi yang telah terkumpul dari berbagai kelompok disatukan menjadi satu database. Database ini akan menjadi dasar informasi yang akan diintegrasikan ke dalam website yang kami rencanakan.
                       </p>
                     </div>
+                  </div>
 
-                    <div className="image-pair">
-                      <img src="https://iili.io/HtrWAJ4.md.jpg" alt="Gambar 3" className="gambar-proker" />
-                      <p className="map-unhas">
-                        Langkah selanjutnya adalah proses pembuatan website navigasi. Website ini dirancang dengan fitur-fitur yang telah dijelaskan sebelumnya, seperti penggunaan QR code, navigasi berbasis peta interaktif, dan deskripsi ruangan. Tujuannya adalah agar para pengguna website dapat dengan mudah mengakses informasi lokasi ruangan dan merencanakan rute dengan efisien.
-                      </p>
+                  <div className="content-pair">
+                  <div className="carousel-container-proker">
+                    <Carousel fade>
+                      <Carousel.Item>
+                        <div className="image-content">
+                          <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                        </div>
+                      </Carousel.Item>
+
+                      <Carousel.Item>
+                        <div className="image-content">
+                          <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                        </div>
+                      </Carousel.Item>
+                      {/* Repeat for other images */}
+                    </Carousel>
                     </div>
-
-                    <div className="image-pair">
-                      <img src="https://iili.io/Htr5hbf.md.jpg" alt="Gambar 3" className="gambar-proker" />
+                    <div className="text-content">
                       <p className="map-unhas">
-                        Sebagai bagian dari proyek ini, kami merancang spanduk-spanduk yang berisi QR code yang dapat discan. QR code ini akan mengarahkan pengguna ke website navigasi yang telah kami kembangkan. Untuk memastikan efektivitasnya, kami mengidentifikasi titik-titik krusial dan area strategis di dalam fakultas-fakultas yang tepat untuk dipasang QR code. Ini memerlukan kerja sama yang baik dengan pihak fakultas untuk menentukan posisi yang optimal.
-                      </p>
-                    </div>
-
-                    <div className="image-pair">
-                      <img src="gambar3.jpg" alt="Gambar kalo terpasang mi stand QR" className="gambar-proker" />
-                      <p className="map-unhas">
-                        Dengan demikian, proyek ini menggabungkan usaha pengumpulan data yang komprehensif, pengolahan data yang cermat, serta pengembangan website yang inovatif. Dengan adanya spanduk-spanduk QR code dan pemasangan QR code di titik-titik penting, proyek ini diharapkan dapat secara signifikan meningkatkan kemudahan navigasi dan pengenalan ruangan bagi para mahasiswa di dalam lingkungan kampus.
+                      Langkah selanjutnya adalah proses pembuatan website navigasi. Website ini dirancang dengan fitur-fitur yang telah dijelaskan sebelumnya, seperti penggunaan QR code, navigasi berbasis peta interaktif, dan deskripsi ruangan. Tujuannya adalah agar para pengguna website dapat dengan mudah mengakses informasi lokasi ruangan dan merencanakan rute dengan efisien.
                       </p>
                     </div>
                   </div>
-                  <div class="text-content">
+                  
+                  <div className="content-pair">
+                  <div className="carousel-container-proker">
+                    <Carousel fade>
+                      <Carousel.Item>
+                        <div className="image-content">
+                          <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                        </div>
+                      </Carousel.Item>
+
+                      <Carousel.Item>
+                        <div className="image-content">
+                          <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                        </div>
+                      </Carousel.Item>
+                      {/* Repeat for other images */}
+                    </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                      Sebagai bagian dari proyek ini, kami merancang spanduk-spanduk yang berisi QR code yang dapat discan. QR code ini akan mengarahkan pengguna ke website navigasi yang telah kami kembangkan. Untuk memastikan efektivitasnya, kami mengidentifikasi titik-titik krusial dan area strategis di dalam fakultas-fakultas yang tepat untuk dipasang QR code. Ini memerlukan kerja sama yang baik dengan pihak fakultas untuk menentukan posisi yang optimal.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                  <div className="carousel-container-proker">
+                    <Carousel fade>
+                      <Carousel.Item>
+                        <div className="image-content">
+                          <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                        </div>
+                      </Carousel.Item>
+
+                      <Carousel.Item>
+                        <div className="image-content">
+                          <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                        </div>
+                      </Carousel.Item>
+                      {/* Repeat for other images */}
+                    </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                      Dengan demikian, proyek ini menggabungkan usaha pengumpulan data yang komprehensif, pengolahan data yang cermat, serta pengembangan website yang inovatif. Dengan adanya spanduk-spanduk QR code dan pemasangan QR code di titik-titik penting, proyek ini diharapkan dapat secara signifikan meningkatkan kemudahan navigasi dan pengenalan ruangan bagi para mahasiswa di dalam lingkungan kampus.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </Accordion.Body>
@@ -209,7 +282,6 @@ const Home = () => {
           </Accordion>
         </Row>
       </Container>
-
 
       <Footer />
     </div>

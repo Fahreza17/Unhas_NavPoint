@@ -150,18 +150,37 @@
   border: 10px solid rgba(0, 0, 0, 0.2);
 } */
 
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Jarak antara pasangan konten */
+}
+
+.content-pair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content {
+  width: 50%;
+}
+
 .map-unhas {
   text-align: justify;
   text-indent: 30px;
+  margin-left: 20px;
 }
 
 .gambar-proker {
-  display: block; /* Menghilangkan margin bawah yang tidak diinginkan */
-  margin: 0 auto; /* Untuk membuat gambar berada di tengah-tengah */
-  max-width: 100%; /* Gambar akan merespons ukuran layar */
-  width: 300px;
+  display: block;
+  max-width: 100%;
+  width: 450px;
   height: auto;
+}
 
+.carousel-container-proker {
+  width: 40%; /* Lebar gambar */
 }
 
 @media (max-width : 768px) {
@@ -233,6 +252,30 @@
 
   .what-col {
     width: auto;
+  }
+
+  .content-pair {
+    flex-direction: column;
+  }
+
+  .gambar-proker {
+    margin: 0 auto;
+
+  }
+
+  .carousel-container-proker {
+    width: auto; /* Lebar gambar */
+  }
+
+  .text-content {
+    width: auto;
+  }
+
+  .map-unhas {
+    text-align: justify;
+    text-indent: 30px;
+    margin-left: 0;
+    margin-top: 20px;
   }
 }
 

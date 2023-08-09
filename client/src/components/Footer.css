@@ -45,9 +45,10 @@ footer{
   position: relative;
   margin-top: -75px;
   width: 700px;
+  border-radius: 20px;
 }
 
-.half-rectangle {
+.half-rectangle-outside {
   flex: 1;
   display: flex;
   align-items: center;
@@ -55,6 +56,25 @@ footer{
   background-color: #474747;
   overflow: hidden;
   height: 100px;
+}
+
+.half-rectangle-inside {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #474747;
+  overflow: hidden;
+  height: 100px;
+}
+
+.half-rectangle-outside {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.half-rectangle-inside {
+  border-radius: 0px 20px 20px 0px;
+
 }
 
 .organizer, .sponsor {
@@ -111,7 +131,17 @@ footer{
     margin-top: 5px;
   }
 
-  .half-rectangle {
+  .half-rectangle-outside {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474747;
+    overflow: hidden;
+    height: 70px;
+  }
+
+  .half-rectangle-inside {
     flex: 1;
     display: flex;
     align-items: center;
@@ -155,7 +185,17 @@ footer{
     margin-top: 5px;
   }
 
-  .half-rectangle {
+  .half-rectangle-outside {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474747;
+    overflow: hidden;
+    height: 70px;
+  }
+
+  .half-rectangle-inside {
     flex: 1;
     display: flex;
     align-items: center;
