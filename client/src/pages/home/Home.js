@@ -141,7 +141,242 @@ const Home = () => {
                 <div className="text-center">Mental Health Festival</div>
               </Accordion.Header>
               <Accordion.Body>
-                COOMING SOON
+                <div className="content-container">
+                  <div className="content-pair">
+                    {/* <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div> */}
+                    <div className="text-content-mental-1">
+                      <p className="map-unhas">
+                        Salah satu dari program kerja KKNT Smart Campus Tamalanrea Makassar ialah mengadakan sebuah event bertajuk kesehatan mental. Dalam semangat untuk menciptakan perubahan positif dalam kesadaran mengenai kesehatan mental, kami dengan penuh antusiasme mengadakan sebuah kegiatan untuk membantu Unhas menjadi kampus yang lebih baik. "Mental Health Festival" dengan tema : "Pikiran Bahagia Hidup Sehat: Memperkuat Akan Kesadaran Kesehatan Mental Gen Z" ini kami rangkaiakan dengan salah satu program kerja wajib bagi KKNT Gel. 110 Unhas kali ini yaitu donor darah.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    {/* <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div> */}
+                    <div className="text-content-mental-1">
+                      <p className="map-unhas">
+                        Perjalanan festival dimulai dengan penentuan tema yang kuat dan relevan. "Pikiran Bahagia Hidup Sehat" menjadi titik awal untuk menjelajahi secara mendalam tentang pentingnya fondasi kesehatan mental yang kokoh dalam menjalani kehidupan sehari-hari. Tentu saja festival ini kita rangkaikan dengan kegiatan donor darah karena dengan mendonor kita juga bisa menjaga tubuh kita agar tetap sehat.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    {/* <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div> */}
+                    <div className="text-content-mental-1">
+                      <p className="map-unhas">
+                        Dengan tekad untuk memberikan pemahaman mendalam, kami dengan rendah hati menjalin kerja sama dengan Prodi Psikologi Universitas Hasanuddin. Langkah ini akan memastikan bahwa kegiatan ini tidak hanya berkesan tetapi juga berbasis ilmiah, mendukung pendekatan profesional dalam menyuarakan pentingnya kesehatan mental. Bapak Dr. Ichlas Nanang Affandi, S.Psi., M.A. selaku ketua Prodi Psikologi turut membantu kami dengan menjadi salah satu pembicara kami.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDOYYv.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDOavR.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDOg6u.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>                        
+                        
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                        Kami dengan gembira berkolaborasi dengan KSR PMI Universitas Hasanuddin dan PMI Kota Makassar. Bersama mereka, kami menyelenggarakan sesi donor darah yang juga menjadi salah satu dari rangkaian kegiatan kami. Komitmen kami terhadap perubahan positif lebih diperkuat dengan kolaborasi bersama SDGs Center Universitas Hasanuddin. Bersama-sama, kami akan menjembatani kesenjangan antara kesehatan mental dan tujuan pembangunan berkelanjutan. Kami juga memiliki kesempatan untuk berkolaborasi dengan Satuan Tugas Pencegahan dan Penanganan Kekerasan Seksual (Satgas PPKS) Universitas Hasanuddin. Kehadiran mereka akan memberikan pandangan yang berharga tentang perlunya kesadaran akan kesehatan mental dalam menghadapi berbagai tantangan sosial salah satunya ialah mengenai kekerasan seksual yang terjadi di lingkup kampus Unhas
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDOAEg.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDOwv4.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDefnt.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                        Dengan kolaborasi bersama mereka, kami memiliki kesempatan untuk menghadirkan duta SDGs Universitas Hasanuddin, kak Agil Parwan dan juga perwakilan dari tim Satgas PPKS Unhas, bapak Dr. Iskandar, S.Sos., M.Si., selaku sekretaris Satgas PPKS Unhas yang juga berperan sebagai perwakilan dan pembawa materi mengenai kekerasan seksual menggantikan ibu Prof. Dr. Farida Pattitingi, S.H., M.Hum. selaku ketua Satgas PPKS sekaligus Wakil Rektor Bidang Sumber Daya Manusia, Alumni, dan Sitem Informasi.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDOR4a.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDeH8v.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDeAtS.md.png" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                        Kami telah mengirimkan undangan kepada seluruh Unit Kegiatan Mahasiswa (UKM) di Universitas Hasanuddin. Melalui partisipasi mereka, kami berharap dapat menciptakan gerakan yang kuat dalam mendukung kesadaran kesehatan mental, pembangunan berkelanjutan dan juga menciptakan kampus aman tanpa adanya kekerasan seksual. Dalam upaya untuk mencapai inklusivitas, kami juga telah mengundang Kuliah Kerja Nyata Tematik (KKNT) yang poskonya berlokasi di Kota Makassar dengan harapan bahwa pesan positif ini akan merasuk lebih dalam di berbagai kalangan mahasiswa Universitas Hasanuddin.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtDO73J.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtyoCpp.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtyooTN.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                        Tema festival akan hidup melalui berbagai properti yang dirancang khusus mulai dari dekorasi penuh kreativitas hingga booth interaktif yang didukung penuh oleh teman teman dari program kerja SDGs yang bekerja sama langsung dengan SDGs Center Unhas, setiap detail akan menciptakan lingkungan yang mendukung semangat kesehatan mental yang positif dan mendukung pembangunan berkelanjutan.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    {/* <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div> */}
+                    <div className="text-content-mental-1">
+                      <p className="map-unhas">
+                        Sebagai bentuk komitmen nyata terhadap kesehatan fisik dan mental, kami telah mempersiapkan sesi donor darah bersama PMI. Tindakan ini adalah cerminan dari semangat peduli dan solidaritas sosial. Kegiatan ini akan mencapai puncaknya dengan talkshow yang informatif dan inspiratif. Melalui sesi ini, para ahli dan narasumber akan berbagi wawasan dan pengalaman tentang pentingnya menjaga kesehatan mental dan lebih peduli terhadap kekerasan seksual dalam menjalani kehidupan sehari-hari yang tentu saja berkaitan dengan poin-poin SDGs.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    {/* <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div> */}
+                    <div className="text-content-mental-1">
+                      <p className="map-unhas">
+                        Dengan rasa bangga dan terima kasih, kami akan mengakhiri "Mental Health Festival". Namun, semangat dan kesadaran yang telah ditanamkan dalam acara ini akan terus berlanjut dalam setiap langkah kita menuju kesehatan mental yang lebih baik dan masyarakat yang lebih peduli.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </Accordion.Body>
             </Accordion.Item>
 
@@ -181,21 +416,21 @@ const Home = () => {
                   </div>
 
                   <div className="content-pair">
-                  <div className="carousel-container-proker">
-                    <Carousel fade>
-                      <Carousel.Item>
-                        <div className="image-content">
-                          <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
-                        </div>
-                      </Carousel.Item>
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
 
-                      <Carousel.Item>
-                        <div className="image-content">
-                          <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
-                        </div>
-                      </Carousel.Item>
-                      {/* Repeat for other images */}
-                    </Carousel>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        {/* Repeat for other images */}
+                      </Carousel>
                     </div>
                     <div className="text-content">
                       <p className="map-unhas">
@@ -205,73 +440,73 @@ const Home = () => {
                   </div>
 
                   <div className="content-pair">
-                  <div className="carousel-container-proker">
-                    <Carousel fade>
-                      <Carousel.Item>
-                        <div className="image-content">
-                          <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
-                        </div>
-                      </Carousel.Item>
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
 
-                      <Carousel.Item>
-                        <div className="image-content">
-                          <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
-                        </div>
-                      </Carousel.Item>
-                      {/* Repeat for other images */}
-                    </Carousel>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        {/* Repeat for other images */}
+                      </Carousel>
                     </div>
                     <div className="text-content">
                       <p className="map-unhas">
-                      Langkah selanjutnya adalah proses pembuatan website navigasi. Website ini dirancang dengan fitur-fitur yang telah dijelaskan sebelumnya, seperti penggunaan QR code, navigasi berbasis peta interaktif, dan deskripsi ruangan. Tujuannya adalah agar para pengguna website dapat dengan mudah mengakses informasi lokasi ruangan dan merencanakan rute dengan efisien.
-                      </p>
-                    </div>
-                  </div>
-                  
-                  <div className="content-pair">
-                  <div className="carousel-container-proker">
-                    <Carousel fade>
-                      <Carousel.Item>
-                        <div className="image-content">
-                          <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
-                        </div>
-                      </Carousel.Item>
-
-                      <Carousel.Item>
-                        <div className="image-content">
-                          <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
-                        </div>
-                      </Carousel.Item>
-                      {/* Repeat for other images */}
-                    </Carousel>
-                    </div>
-                    <div className="text-content">
-                      <p className="map-unhas">
-                      Sebagai bagian dari proyek ini, kami merancang spanduk-spanduk yang berisi QR code yang dapat discan. QR code ini akan mengarahkan pengguna ke website navigasi yang telah kami kembangkan. Untuk memastikan efektivitasnya, kami mengidentifikasi titik-titik krusial dan area strategis di dalam fakultas-fakultas yang tepat untuk dipasang QR code. Ini memerlukan kerja sama yang baik dengan pihak fakultas untuk menentukan posisi yang optimal.
+                        Langkah selanjutnya adalah proses pembuatan website navigasi. Website ini dirancang dengan fitur-fitur yang telah dijelaskan sebelumnya, seperti penggunaan QR code, navigasi berbasis peta interaktif, dan deskripsi ruangan. Tujuannya adalah agar para pengguna website dapat dengan mudah mengakses informasi lokasi ruangan dan merencanakan rute dengan efisien.
                       </p>
                     </div>
                   </div>
 
                   <div className="content-pair">
-                  <div className="carousel-container-proker">
-                    <Carousel fade>
-                      <Carousel.Item>
-                        <div className="image-content">
-                          <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
-                        </div>
-                      </Carousel.Item>
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
 
-                      <Carousel.Item>
-                        <div className="image-content">
-                          <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
-                        </div>
-                      </Carousel.Item>
-                      {/* Repeat for other images */}
-                    </Carousel>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        {/* Repeat for other images */}
+                      </Carousel>
                     </div>
                     <div className="text-content">
                       <p className="map-unhas">
-                      Dengan demikian, proyek ini menggabungkan usaha pengumpulan data yang komprehensif, pengolahan data yang cermat, serta pengembangan website yang inovatif. Dengan adanya spanduk-spanduk QR code dan pemasangan QR code di titik-titik penting, proyek ini diharapkan dapat secara signifikan meningkatkan kemudahan navigasi dan pengenalan ruangan bagi para mahasiswa di dalam lingkungan kampus.
+                        Sebagai bagian dari proyek ini, kami merancang spanduk-spanduk yang berisi QR code yang dapat discan. QR code ini akan mengarahkan pengguna ke website navigasi yang telah kami kembangkan. Untuk memastikan efektivitasnya, kami mengidentifikasi titik-titik krusial dan area strategis di dalam fakultas-fakultas yang tepat untuk dipasang QR code. Ini memerlukan kerja sama yang baik dengan pihak fakultas untuk menentukan posisi yang optimal.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        {/* Repeat for other images */}
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                        Dengan demikian, proyek ini menggabungkan usaha pengumpulan data yang komprehensif, pengolahan data yang cermat, serta pengembangan website yang inovatif. Dengan adanya spanduk-spanduk QR code dan pemasangan QR code di titik-titik penting, proyek ini diharapkan dapat secara signifikan meningkatkan kemudahan navigasi dan pengenalan ruangan bagi para mahasiswa di dalam lingkungan kampus.
                       </p>
                     </div>
                   </div>

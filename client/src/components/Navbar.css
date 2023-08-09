@@ -56,12 +56,27 @@
   .navbar-brand .d-inline-block {
     display: none!important;
   }
+
+  .offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    width: 50%;
+}
 }
 
-/* CSS */
 .offcanvas-logo {
   width: 40px;
   height: 40px;
   margin-right: 10px;
-  /* Tambahkan gaya lain sesuai kebutuhan Anda */
+}
+
+.offcanvas-body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.offcanvas-hr {
+  margin: 0;
+}
+
+.flex-column {
+  text-align: center;
 }

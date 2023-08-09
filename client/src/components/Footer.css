@@ -122,11 +122,11 @@ footer{
     width: 40px;
     height: 40px;
     margin-top: 5px;
-    margin: 0px 10px 0px 10px; 
+    margin: -6px 10px 0px 10px; 
   }
   
   .logo-simas {
-    width: 65px;
+    width: 100px;
     height: auto;
     margin-top: 5px;
   }
@@ -152,12 +152,12 @@ footer{
   }
 
   .organizer-title {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 13px;
   }
   
   .sponsor-title{
-    margin-bottom: 5px;
+    margin-bottom: -7px;
     font-size: 13px;
   }
 }
@@ -173,16 +173,15 @@ footer{
     margin-top: -70px;
   }
   .logo-small {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-top: 5px;
     margin: 0px 10px 0px 10px; 
   }
   
   .logo-simas {
-    width: 50px;
+    width: 100px;
     height: auto;
-    margin-top: 5px;
   }
 
   .half-rectangle-outside {
@@ -206,12 +205,12 @@ footer{
   }
 
   .organizer-title {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 10px;
   }
   
   .sponsor-title{
-    margin-bottom: 5px;
+    margin-bottom: -7px;
     font-size: 10px;
   }
 }

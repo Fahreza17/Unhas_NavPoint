@@ -20,7 +20,7 @@ const NavbarComp = () => {
 
   useEffect(() => {
     const checkIsMobile = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 992);
     };
 
     checkIsMobile();
@@ -54,13 +54,14 @@ const NavbarComp = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link as={Link} to="/" style={getNavLinkStyle('/')}>Home</Nav.Link>
-              <Nav.Link as={Link} to="/Cards" style={getNavLinkStyle('/Cards')}>Link</Nav.Link>
+              <Nav.Link as={Link} to="/Cards" style={getNavLinkStyle('/Cards')}>NavPoint</Nav.Link>
               <Nav.Link as={Link} to="/About" style={getNavLinkStyle('/About')}>About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         )}
+        
       </Container>
-      <Offcanvas show={showOffcanvas} onHide={() => setShowOffcanvas(false)} placement="end">
+      <Offcanvas show={showOffcanvas} onHide={() => setShowOffcanvas(false)} placement="end" className= "offcanvas-width">
         <Offcanvas.Header closeButton>
         <img
               src="https://iili.io/HtW8Omb.md.png"
@@ -73,8 +74,11 @@ const NavbarComp = () => {
         <Offcanvas.Body>
           <Nav className="flex-column">
             <Nav.Link as={Link} to="/" style={getNavLinkStyle('/')}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/Cards" style={getNavLinkStyle('/Cards')}>Link</Nav.Link>
+            <hr className="offcanvas-hr"></hr>
+            <Nav.Link as={Link} to="/Cards" style={getNavLinkStyle('/Cards')}>NavPoint</Nav.Link>
+            <hr className="offcanvas-hr"></hr>
             <Nav.Link as={Link} to="/About" style={getNavLinkStyle('/About')}>About</Nav.Link>
+            <hr className="offcanvas-hr"></hr>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>
