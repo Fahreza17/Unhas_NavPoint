@@ -35,8 +35,57 @@ footer{
   margin: 0 5px;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  position: relative;
+  margin-top: -75px;
+  width: 700px;
+}
+
+.half-rectangle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #474747;
+  overflow: hidden;
+  height: 100px;
+}
+
+.organizer, .sponsor {
+  text-align: center;
+}
+
+.organizer-title {
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sponsor-title{
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-small {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin: 0px 20px 0px 20px; 
+}
+
+.logo-simas {
+  width: 100px;
+  height: auto;
+  margin-top: 5px;
+}
+
 /* Responsiveness for screens less than or equal to 600px width */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .socialIconsStyle {
     font-size: 20px;
   }
@@ -44,11 +93,85 @@ footer{
   .copyRightStyle {
     font-size: 10px;
   }
+
+  .logo-container {
+    width: 350px;
+    margin-top: -70px;
+  }
+  .logo-small {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin: 0px 10px 0px 10px; 
+  }
+  
+  .logo-simas {
+    width: 65px;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  .half-rectangle {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474747;
+    overflow: hidden;
+    height: 70px;
+  }
+
+  .organizer-title {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  
+  .sponsor-title{
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
 }
 
 /* Responsiveness for screens less than or equal to 400px width */
 @media (max-width: 400px) {
   .socialIconsStyle {
     font-size: 16px;
+  }
+
+  .logo-container {
+    width: 300px;
+    margin-top: -70px;
+  }
+  .logo-small {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin: 0px 10px 0px 10px; 
+  }
+  
+  .logo-simas {
+    width: 50px;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  .half-rectangle {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474747;
+    overflow: hidden;
+    height: 70px;
+  }
+
+  .organizer-title {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  
+  .sponsor-title{
+    margin-bottom: 5px;
+    font-size: 10px;
   }
 }
