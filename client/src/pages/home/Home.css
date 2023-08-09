@@ -67,6 +67,7 @@
 }
 
 .dpk-img {
+  width: 400px;
   height: auto;
   object-fit: cover;
   margin-top: -220px;
