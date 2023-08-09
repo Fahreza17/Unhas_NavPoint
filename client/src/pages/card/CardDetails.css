@@ -139,6 +139,10 @@ li{
     margin: 10px 0;
   }
 
+.cards-row {
+    margin-bottom: 30px;
+}
+
 @media (max-width : 425px) {
     .cards-row .row {
         width: auto;
