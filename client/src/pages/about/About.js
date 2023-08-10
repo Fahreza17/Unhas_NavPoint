@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Image, Carousel } from 'react-bootstrap';
 import NavbarComp from '../../components/NavbarComp';
 import Footer from '../../components/Footer';
 import '../../components/fonts/font.css'
 import './About.css';
+import ImagePopup from './ImagePopup.js';
 
 const members = [
   {
@@ -106,6 +107,19 @@ const coordinators = [
 
 function About() {
   const targetMemberName = "Ahmad Jalu Fahreza Nur Hakim";
+  const [popupOpen, setPopupOpen] = useState(false);
+  const [selectedImageUrl, setSelectedImageUrl] = useState('');
+
+  const handleImageClick = (imageUrl) => {
+    setSelectedImageUrl(imageUrl);
+    setPopupOpen(true);
+  };
+
+  const handleClosePopup = () => {
+    setPopupOpen(false);
+    setSelectedImageUrl('');
+  };
+  
   return (
     <div>
       <NavbarComp />
@@ -160,7 +174,9 @@ function About() {
                   {coordinator.members.map((member, index) => (
                     <Carousel.Item key={index}>
                       <div className={`member-circle ${member.name === targetMemberName ? 'target-member' : ''}`}>
-                      <Image src={member.image} className={`member-image ${member.name === targetMemberName ? 'target-member-image' : ''}`} />
+                      <Image src={member.image} className={`member-image ${member.name === targetMemberName ? 'target-member-image' : ''}`} 
+                      onClick={() => handleImageClick(member.image)}
+                      />
                       </div>
                       <p className={`member-name ${member.name === targetMemberName ? 'target-member-name' : ''}`}>
                         {member.name}
@@ -176,6 +192,11 @@ function About() {
         </Row>
       </Container>
       <Footer />
+      <ImagePopup
+        isOpen={popupOpen && targetMemberName !== ''}
+        onClose={handleClosePopup}
+        imageUrl={selectedImageUrl}
+      />
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.popup-content {
+    max-width: 80%; /* Atur lebar maksimum popup */
+    margin: 0 auto; /* Pusatkan popup secara horizontal */
+    padding: 10px; /* Beri jarak antara isi popup dengan batasnya */
+    background-color: white; /* Warna latar belakang popup */
+    border-radius: 5px; /* Beri sedikit sudut melengkung pada popup */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Tambahkan bayangan untuk efek kedalaman */
+  }
+  
+  .popup-image {
+    max-width: 100%; /* Gambar dalam popup mengikuti lebar popup */
+    width: 200px;
+    height: auto; /* Tinggi gambar menyesuaikan agar tidak terdistorsi */
+  }
+  
+  .popup-close {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .popup-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000; /* Atur z-index yang lebih tinggi dari footer */
+  }
