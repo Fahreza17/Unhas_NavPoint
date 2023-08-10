@@ -128,8 +128,14 @@
 }
 
 .target-member-image {
-  width: 100%!important;
-  height: auto!important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(60%);
+  /* Ini akan mengubah warna menjadi abu-abu */
 }
 
 .carousel-item .member-image {
