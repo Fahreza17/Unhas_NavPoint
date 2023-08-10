@@ -383,7 +383,202 @@ const Home = () => {
             <Accordion.Item eventKey="1" className="accordion-item">
               <Accordion.Header>SDGS UNHAS</Accordion.Header>
               <Accordion.Body>
-                COOMING SOON
+              <div className="content-container">
+                  <div className="content-pair">
+                    {/* <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div> */}
+                    <div className="text-content-mental-1">
+                      <p className="map-unhas">
+                      Dalam rangka mewujudkan komitmen Universitas Hasanuddin terhadap pencapaian Sustainable Development Goals (SDGs), kami membuat suatu program kerja SDGs yang dirancang untuk mengoptimalkan integrasi dan implementasi SDGs di lingkungan kampus. Proker ini memuat berbagai kegiatan untuk mengedukasi, menyebarkan awareness, dan berkolaborasi dengan pihak-pihak terkait di Universitas Hasanuddin.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    {/* <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div> */}
+                    <div className="text-content-mental-1">
+                      <p className="map-unhas">
+                      Kegiatan pertama yang kami lakukan adalah berkunjung ke SDGs Center Universitas Hasanuddin. Kunjungan yang kami lakukan bertujuan untuk memahami lebih dalam mengenai upaya Universitas Hasanuddin dalam mempromosikan dan menerapkan prinsip-prinsip SDGs di seluruh aspek kehidupan. Kami mendapatkan berbagi insight dan masukkan mengenai apa yang dapat kami lakukan sebagai mahasiswa untuk membantu upaya mewujudkan SDGs di Universitas Hasanuddin secara keseluruhan.                        
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnUN4.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnPi7.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnbOx.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                      Setelah kunjungan tersebut, kami akhirnya memfokuskan salah satu kegiatan yang akan kami lakukan yaitu pembuatan konten instagram untuk menyebarkan awareness mengenai SDGs, mengingat bahwa pengetahuan mahasiswa dan warga kampus masih minim mengenai SDGs. Melalui pembuatan konten ini, diharapkan bahwa pengetahuan dan kesadaran mahasiswa mengenai SDGs di Universitas Hasanuddin akan bertambah dan dapat mendukung upaya pencapaian SDGs di kampus.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJngDl.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJn4x2.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJntHb.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>                        
+                        
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                      Kami pun membuat booth SDGs di dalam acara Mental Health Festival sebagai upaya untuk pengenalan lebih lanjut mengenai SDGs kepada para peserta yang hadir di acara tersbut. Kami menyediakan properti-properti seperti box-box SDGs, totebag, tumblr, stiker, snack, serta quiz seputar SDGs Unhas yang ditanyakan kepada setiap peserta yang berkunjung ke booth kami dengan hadiah totebag dan tumblr.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJn8HG.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnSRf.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnmDQ.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                      Kegiatan selanjutnya yang berkaitan dengan poin SDGs nomor 16 “Peace, Justice and Strong Institutions”, kami berkolaborasi dengan Satgas Pencegahan dan Penanganan Kekerasan Seksual (PPKS) Universitas Hasanuddin. Kami mengundang Ketua Satgas PPKS Unhas, Prof. Dr. Farida Patittingi, SH., M.Hum sebagai pembicara dalam Mental Health Festival, yang mana diwakili oleh Sekretaris Satgas Dr. Iskandar, S.Sos., M.Si. Hal ini merupakan suatu upaya untuk mengintegrasikan isu kekerasan seksual dengan kesehatan mental yang merupakan salah satu bagian dari SDGs. 
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnkSs.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnQUu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnDRj.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+                        
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                      Kami pun turut berkolaborasi dengan SDGs Center yaitu dengan mengundang Duta Kampus SDGs Tahun 2020-2022, Agil Parwan untuk menjadi moderator dalam acara Mental Health Festival yang mana dapat menambahkan penyebaran wawasan dan awareness mengenai SDGs kepada para peserta yang merupakan mahasiswa-mahasiswa Universitas Hasanuddin.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="content-pair">
+                    <div className="carousel-container-proker">
+                      <Carousel fade>
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnsf9.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HDJnLle.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item>
+
+                        {/* <Carousel.Item>
+                          <div className="image-content">
+                            <img src="https://iili.io/HtyooTN.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                          </div>
+                        </Carousel.Item> */}
+                        
+                      </Carousel>
+                    </div>
+                    <div className="text-content">
+                      <p className="map-unhas">
+                      Kegiatan terakhir yang kami lakukan merupakan implementasi dari poin SDGs nomor 6 “Clean Water and Sanitation”. Kami menyadari masih kurangnya sanitasi yang sesuai dengan Pola Hidup Bersih dan Sehat (PHBS) di Universitas Hasanuddin. Untuk mendapatkan pandangan expert, kami mengunjungi Departemen PKIP di Fakultas Kesehatan Masyarakat dan mewawancarai Ibu Dr. Shanti Riskiyani, SKM,.M.Kes mengenai PHBS di Universitas Hasanuddin. Setelah mendapatkan pengetahuan lebih dalam mengenai PHBS, kami mulai melakukan observasi dan identifikasi terhadap toilet dan kantin yang ada di Universitas Hasanuddin. Selanjutnya, kami membuatkan policy brief mengenai hasil identifikasi kami untuk diteruskan kepada pihak kampus sebagai bahan pertimbangan untuk pengimplementasian sanitasi yang lebih layak dan sesuai dengan PHBS di Universitas Hasanuddin.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </Accordion.Body>
             </Accordion.Item>
 
