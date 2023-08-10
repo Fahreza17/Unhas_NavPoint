@@ -72,7 +72,7 @@ const coordinators = [
       { name: 'Muhammad Qalbi', department: 'Kimia', image: 'https://iili.io/HtVErxa.th.png' },
       { name: 'Andi Ahmad Aqram', department: 'Teknik Arsitektur', image: 'https://iili.io/HtVEOlV.th.png' },
       { name: 'Muhammad Yusran', department: 'Ilmu Komunikasi', image: 'https://iili.io/HtVESOF.th.png' },
-      { name: 'Muhaimin H.R', department: 'Sastra Jepang', image: 'https://iili.io/HtVENKQ.th.png' },
+      { name: 'Muhaimin H.R', department: 'Sastra Jepang', image: 'https://iili.io/HDJkYKl.jpg' },
       { name: 'Herlin Endcy', department: 'Peternakan', image: 'https://iili.io/HtVEvHP.th.png' },
       { name: 'Muhammad Brilyan', department: 'Manajemen', image: 'https://iili.io/HtVEeUB.th.png' },
       { name: 'Ahmad Altamis Afham', department: 'Teknik Arsitektur', image: 'https://iili.io/HtVEUDg.th.png' },

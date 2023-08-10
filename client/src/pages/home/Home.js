@@ -587,7 +587,7 @@ const Home = () => {
               <Accordion.Body>
                 <div className="content-container">
                   <div className="content-pair">
-                    <div className="carousel-container-proker">
+                    {/* <div className="carousel-container-proker">
                       <Carousel fade>
                         <Carousel.Item>
                           <div className="image-content">
@@ -600,10 +600,9 @@ const Home = () => {
                             <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
                           </div>
                         </Carousel.Item>
-                        {/* Repeat for other images */}
                       </Carousel>
-                    </div>
-                    <div className="text-content">
+                    </div> */}
+                    <div className="text-content-mental-1">
                       <p className="map-unhas">
                         Tim KKN kami membagi diri menjadi empat kelompok yang bertugas untuk mendata ruangan-ruangan di berbagai fakultas di kampus. Pengumpulan data dilakukan dengan menggunakan aplikasi Avenza, di mana kami memasukkan informasi berupa nama ruangan, koordinat latitude dan longitude, serta deskripsi lantai dari setiap ruangan. Selama hampir dua minggu, kami mengumpulkan data ini secara komprehensif, juga melengkapi informasi dengan gambar-gambar yang mendukung.
                       </p>
@@ -615,16 +614,15 @@ const Home = () => {
                       <Carousel fade>
                         <Carousel.Item>
                           <div className="image-content">
-                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                            <img src="https://iili.io/HDJ6TGe.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
                           </div>
                         </Carousel.Item>
 
                         <Carousel.Item>
                           <div className="image-content">
-                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                            <img src="https://iili.io/HDJ6In9.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
                           </div>
                         </Carousel.Item>
-                        {/* Repeat for other images */}
                       </Carousel>
                     </div>
                     <div className="text-content">
@@ -663,13 +661,13 @@ const Home = () => {
                       <Carousel fade>
                         <Carousel.Item>
                           <div className="image-content">
-                            <img src="https://iili.io/Ht8fpTb.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
+                            <img src="https://iili.io/HDJv2JS.md.jpg" alt="Gambar 2" className="gambar-proker image-content" />
                           </div>
                         </Carousel.Item>
 
                         <Carousel.Item>
                           <div className="image-content">
-                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                            <img src="https://iili.io/HDJ4FeV.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
                           </div>
                         </Carousel.Item>
                         {/* Repeat for other images */}
