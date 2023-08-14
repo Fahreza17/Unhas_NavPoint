@@ -1,5 +1,5 @@
 .popup-content {
-    max-width: 80%; /* Atur lebar maksimum popup */
+    max-width: 100%; /* Atur lebar maksimum popup */
     margin: 0 auto; /* Pusatkan popup secara horizontal */
     padding: 10px; /* Beri jarak antara isi popup dengan batasnya */
     background-color: white; /* Warna latar belakang popup */
@@ -9,7 +9,7 @@
   
   .popup-image {
     max-width: 100%; /* Gambar dalam popup mengikuti lebar popup */
-    width: 200px;
+    width: 300px;
     height: auto; /* Tinggi gambar menyesuaikan agar tidak terdistorsi */
   }
   

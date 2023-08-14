@@ -2,6 +2,7 @@ import LoadingSpinner from '../../components/LoadingSpinner';
 import React, { useState, useEffect } from 'react';
 import NavbarComp from '../../components/NavbarComp';
 import Footer from '../../components/Footer'
+import ImagePopup from '../about/ImagePopup';
 import SearchBar from '../../components/SearchBar';
 import { useParams } from 'react-router-dom';
 import { Card, Button, Col, Row } from 'react-bootstrap';
@@ -67,6 +68,37 @@ const CardDetails = () => {
     )
   );
 
+  const [isCardHovered, setIsCardHovered] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  const [popupOpen, setPopupOpen] = useState(false);
+  const [selectedImageUrl, setSelectedImageUrl] = useState('');
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust the breakpoint as needed
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+
+  const handleClosePopup = () => {
+    setPopupOpen(false);
+    setSelectedImageUrl('');
+  };
+
+  const handleImageClick = (imageUrl) => {
+    if (isMobile && isCardHovered) {
+      setSelectedImageUrl(imageUrl);
+      setPopupOpen(true);
+    }
+  };
+
 
   return (
     <div>
@@ -95,9 +127,11 @@ const CardDetails = () => {
             const ruanganByLantai = ruanganData.filter((ruangan) => ruangan.id_gedung === gedung.id_gedung);
 
             return (
-              <Col key={gedung.id_gedung} md={4} sm={4} lg={3} className="mb-4">
+              <Col key={gedung.id_gedung} md={4} sm={4} lg={3} className="mb-4" 
+              onMouseEnter={() => setIsCardHovered(true)}
+              onMouseLeave={() => setIsCardHovered(false)}>
                 <Card className="card-box">
-                  <Card.Img variant="top" src={gedung.gambar_gedung} />
+                  <Card.Img variant="top" src={gedung.gambar_gedung} onClick={() => handleImageClick(gedung.gambar_gedung)}/>
                   <Card.Body>
                     <Card.Title>{gedung.nama_gedung}</Card.Title>
                     <Card.Text>
@@ -132,6 +166,11 @@ const CardDetails = () => {
         </Row>
       </div>
       <Footer/>
+      <ImagePopup
+            isOpen={popupOpen && (!isMobile || isCardHovered)}
+            onClose={handleClosePopup}
+            imageUrl={selectedImageUrl}
+          />
       </>
       )}
     </div>
