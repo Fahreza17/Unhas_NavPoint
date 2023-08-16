@@ -689,11 +689,11 @@ const Home = () => {
                           </div>
                         </Carousel.Item>
 
-                        {/* <Carousel.Item>
+                        <Carousel.Item>
                           <div className="image-content">
-                            <img src="https://iili.io/Ht8fbyu.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
+                            <img src="https://iili.io/HD6HBnI.md.jpg" alt="Gambar 3" className="gambar-proker image-content" />
                           </div>
-                        </Carousel.Item> */}
+                        </Carousel.Item>
                         {/* Repeat for other images */}
                       </Carousel>
                     </div>
