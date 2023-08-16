@@ -16,7 +16,8 @@
 {"id_fakultas":"11","nama_fakultas":"Fakultas Ilmu Sosial & Ilmu Politik","latitude_fakultas":"-5.13157710","longitude_fakultas":"119.48997432","deskripsi_fakultas":"https:\/\/fisip.unhas.ac.id\/id\/beranda-id\/","gambar_fakultas":"https:\/\/iili.io\/HtE56yQ.md.webp","url_maps":"https:\/\/goo.gl\/maps\/YEwrhWys4BdCBYAfA"},
 {"id_fakultas":"12","nama_fakultas":"Fakultas Ilmu Budaya","latitude_fakultas":"-5.13271268","longitude_fakultas":"119.49072720","deskripsi_fakultas":"https:\/\/ilmubudaya.unhas.ac.id\/id\/","gambar_fakultas":"https:\/\/iili.io\/HtE5mFa.md.webp","url_maps":"https:\/\/goo.gl\/maps\/8tr9B5cyjC4mNxb3A"},
 {"id_fakultas":"13","nama_fakultas":"Fakultas Ekonomi & Bisnis","latitude_fakultas":"-5.13126009","longitude_fakultas":"119.49055622","deskripsi_fakultas":"https:\/\/feb.unhas.ac.id\/","gambar_fakultas":"https:\/\/iili.io\/HtE5Zn1.md.webp","url_maps":"https:\/\/goo.gl\/maps\/S7usR9d94xGZ7Qa96"},
-{"id_fakultas":"14","nama_fakultas":"Fakultas Kedokteran Gigi","latitude_fakultas":"-5.12909558","longitude_fakultas":"119.48666871","deskripsi_fakultas":"https:\/\/dent.unhas.ac.id\/","gambar_fakultas":"https:\/\/iili.io\/HtE5pcJ.md.webp","url_maps":"https:\/\/goo.gl\/maps\/quei3CCzJfwjuRE37"}
+{"id_fakultas":"14","nama_fakultas":"Fakultas Kedokteran Gigi","latitude_fakultas":"-5.12909558","longitude_fakultas":"119.48666871","deskripsi_fakultas":"https:\/\/dent.unhas.ac.id\/","gambar_fakultas":"https:\/\/iili.io\/HtE5pcJ.md.webp","url_maps":"https:\/\/goo.gl\/maps\/quei3CCzJfwjuRE37"},
+{"id_fakultas":"15","nama_fakultas":"Fakultas Vokasi","latitude_fakultas":"-5.135814767\r\n","longitude_fakultas":"119.4881864\r\n","deskripsi_fakultas":"https:\/\/vokasi.unhas.ac.id\/","gambar_fakultas":"https:\/\/iili.io\/HD43nTv.md.jpg","url_maps":"https:\/\/goo.gl\/maps\/pStC8WJNMwKzDbTM8"}
 ]
 }
 ,{"type":"table","name":"gedung","database":"unhas_mapping","data":
@@ -86,7 +87,9 @@
 {"id_gedung":"63","nama_gedung":"GEDUNG E","id_fakultas":"8","latitude_gedung":"-5.130073029","longitude_gedung":"119.4851633","deskripsi_gedung":null,"gambar_gedung":"https:\/\/iili.io\/HtX7qkg.md.jpg","url_maps":"https:\/\/goo.gl\/maps\/bL3knunKhy6aFudJ7"},
 {"id_gedung":"64","nama_gedung":"GEDUNG F","id_fakultas":"8","latitude_gedung":"-5.130279109","longitude_gedung":"119.4864388","deskripsi_gedung":null,"gambar_gedung":"https:\/\/iili.io\/HtX7fYF.md.jpg","url_maps":"https:\/\/goo.gl\/maps\/u8b8XyGt7Lr4UedA8"},
 {"id_gedung":"65","nama_gedung":"DEPARTEMEN STATISTIKA","id_fakultas":"9","latitude_gedung":"-5.132574","longitude_gedung":"119.487409","deskripsi_gedung":null,"gambar_gedung":"https:\/\/iili.io\/HDqxD2R.md.jpg","url_maps":"https:\/\/goo.gl\/maps\/3nYLQLYBU7Spwo1L7"},
-{"id_gedung":"66","nama_gedung":"RUANG KULIAH BERSAMA","id_fakultas":"9","latitude_gedung":"-5.132589","longitude_gedung":"119.486376","deskripsi_gedung":null,"gambar_gedung":"https:\/\/iili.io\/HDqzJQn.md.jpg","url_maps":"https:\/\/goo.gl\/maps\/QgnmFMrHm6y3ZV397"}
+{"id_gedung":"66","nama_gedung":"RUANG KULIAH BERSAMA","id_fakultas":"9","latitude_gedung":"-5.132589","longitude_gedung":"119.486376","deskripsi_gedung":null,"gambar_gedung":"https:\/\/iili.io\/HDqzJQn.md.jpg","url_maps":"https:\/\/goo.gl\/maps\/QgnmFMrHm6y3ZV397"},
+{"id_gedung":"67","nama_gedung":"GEDUNG FAKULTAS VOKASI","id_fakultas":"15","latitude_gedung":"-5.135814767\r\n","longitude_gedung":"119.4881864","deskripsi_gedung":null,"gambar_gedung":"https:\/\/iili.io\/HD43nTv.md.jpg","url_maps":"https:\/\/goo.gl\/maps\/pStC8WJNMwKzDbTM8"},
+{"id_gedung":"68","nama_gedung":"MUSHOLLA FAKULTAS VOKASI\r\n","id_fakultas":"15","latitude_gedung":"-5.13612393\r\n","longitude_gedung":"119.4882552\r\n","deskripsi_gedung":null,"gambar_gedung":"https:\/\/iili.io\/HD43ByJ.md.jp","url_maps":"https:\/\/goo.gl\/maps\/rBvQ6FvqiNSfdbYQA"}
 ]
 }
 ,{"type":"table","name":"ruangan","database":"unhas_mapping","data":
@@ -975,7 +978,16 @@
 {"id_ruangan":"955","nama_ruangan":"Ruang Dosen","lantai_ruangan":"3","deskripsi_ruangan":"Ruang Dosen","id_gedung":"9","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
 {"id_ruangan":"956","nama_ruangan":"Ballroom","lantai_ruangan":"3","deskripsi_ruangan":"Ballroom","id_gedung":"9","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
 {"id_ruangan":"957","nama_ruangan":"Ruang Tamu Internasional","lantai_ruangan":"3","deskripsi_ruangan":"Ruang Tamu Internasional","id_gedung":"9","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"958","nama_ruangan":"Ruang Konsultasi Mahasiswa","lantai_ruangan":"3","deskripsi_ruangan":"Ruang Konsultasi Mahasiswa","id_gedung":"9","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null}
+{"id_ruangan":"958","nama_ruangan":"Ruang Konsultasi Mahasiswa","lantai_ruangan":"3","deskripsi_ruangan":"Ruang Konsultasi Mahasiswa","id_gedung":"9","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"959","nama_ruangan":"V.001 (Ruang Dekan)","lantai_ruangan":"1","deskripsi_ruangan":"V.001 (Ruang Dekan)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"960","nama_ruangan":"V.002 (Ruang KTU)","lantai_ruangan":"1","deskripsi_ruangan":"V.002 (Ruang KTU)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"961","nama_ruangan":"V.003 (Ruang Bendahara)","lantai_ruangan":"1","deskripsi_ruangan":"V.003 (Ruang Bendahara)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"962","nama_ruangan":"V.004 (Ruang Tendik)","lantai_ruangan":"1","deskripsi_ruangan":"V.004 (Ruang Tendik)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"963","nama_ruangan":"V.006 (Ruang Rapat)","lantai_ruangan":"1","deskripsi_ruangan":"V.006 (Ruang Rapat)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"964","nama_ruangan":"V.007 (Ruang Kasubbag)","lantai_ruangan":"1","deskripsi_ruangan":"V.007 (Ruang Kasubbag)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"965","nama_ruangan":"V.008 (Ruang Ketua GPM-PR)","lantai_ruangan":"1","deskripsi_ruangan":"V.008 (Ruang Ketua GPM-PR)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"966","nama_ruangan":"V.009 (Ruang Wakil Dekan)","lantai_ruangan":"1","deskripsi_ruangan":"V.009 (Ruang Wakil Dekan)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"967","nama_ruangan":"V.010 (Lounge)","lantai_ruangan":"1","deskripsi_ruangan":"V.010 (Lounge)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null}
 ]
 }
 ]
