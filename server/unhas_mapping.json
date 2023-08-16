@@ -979,15 +979,15 @@
 {"id_ruangan":"956","nama_ruangan":"Ballroom","lantai_ruangan":"3","deskripsi_ruangan":"Ballroom","id_gedung":"9","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
 {"id_ruangan":"957","nama_ruangan":"Ruang Tamu Internasional","lantai_ruangan":"3","deskripsi_ruangan":"Ruang Tamu Internasional","id_gedung":"9","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
 {"id_ruangan":"958","nama_ruangan":"Ruang Konsultasi Mahasiswa","lantai_ruangan":"3","deskripsi_ruangan":"Ruang Konsultasi Mahasiswa","id_gedung":"9","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"959","nama_ruangan":"V.001 (Ruang Dekan)","lantai_ruangan":"1","deskripsi_ruangan":"V.001 (Ruang Dekan)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"960","nama_ruangan":"V.002 (Ruang KTU)","lantai_ruangan":"1","deskripsi_ruangan":"V.002 (Ruang KTU)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"961","nama_ruangan":"V.003 (Ruang Bendahara)","lantai_ruangan":"1","deskripsi_ruangan":"V.003 (Ruang Bendahara)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"962","nama_ruangan":"V.004 (Ruang Tendik)","lantai_ruangan":"1","deskripsi_ruangan":"V.004 (Ruang Tendik)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"963","nama_ruangan":"V.006 (Ruang Rapat)","lantai_ruangan":"1","deskripsi_ruangan":"V.006 (Ruang Rapat)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"964","nama_ruangan":"V.007 (Ruang Kasubbag)","lantai_ruangan":"1","deskripsi_ruangan":"V.007 (Ruang Kasubbag)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"965","nama_ruangan":"V.008 (Ruang Ketua GPM-PR)","lantai_ruangan":"1","deskripsi_ruangan":"V.008 (Ruang Ketua GPM-PR)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"966","nama_ruangan":"V.009 (Ruang Wakil Dekan)","lantai_ruangan":"1","deskripsi_ruangan":"V.009 (Ruang Wakil Dekan)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
-{"id_ruangan":"967","nama_ruangan":"V.010 (Lounge)","lantai_ruangan":"1","deskripsi_ruangan":"V.010 (Lounge)","id_gedung":"68","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null}
+{"id_ruangan":"959","nama_ruangan":"V.001 (Ruang Dekan)","lantai_ruangan":"1","deskripsi_ruangan":"V.001 (Ruang Dekan)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"960","nama_ruangan":"V.002 (Ruang KTU)","lantai_ruangan":"1","deskripsi_ruangan":"V.002 (Ruang KTU)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"961","nama_ruangan":"V.003 (Ruang Bendahara)","lantai_ruangan":"1","deskripsi_ruangan":"V.003 (Ruang Bendahara)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"962","nama_ruangan":"V.004 (Ruang Tendik)","lantai_ruangan":"1","deskripsi_ruangan":"V.004 (Ruang Tendik)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"963","nama_ruangan":"V.006 (Ruang Rapat)","lantai_ruangan":"1","deskripsi_ruangan":"V.006 (Ruang Rapat)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"964","nama_ruangan":"V.007 (Ruang Kasubbag)","lantai_ruangan":"1","deskripsi_ruangan":"V.007 (Ruang Kasubbag)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"965","nama_ruangan":"V.008 (Ruang Ketua GPM-PR)","lantai_ruangan":"1","deskripsi_ruangan":"V.008 (Ruang Ketua GPM-PR)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"966","nama_ruangan":"V.009 (Ruang Wakil Dekan)","lantai_ruangan":"1","deskripsi_ruangan":"V.009 (Ruang Wakil Dekan)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null},
+{"id_ruangan":"967","nama_ruangan":"V.010 (Lounge)","lantai_ruangan":"1","deskripsi_ruangan":"V.010 (Lounge)","id_gedung":"67","latitude_ruangan":null,"longitude_ruangan":null,"gambar_ruangan":null}
 ]
 }
 ]
