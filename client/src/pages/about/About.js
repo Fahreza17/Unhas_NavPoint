@@ -75,7 +75,7 @@ const coordinators = [
       { name: 'Muhammad Yusran', department: 'Ilmu Komunikasi', image: 'https://iili.io/HtVESOF.th.png' },
       // { name: 'Muhaimin H.R', department: 'Sastra Jepang', image: 'https://iili.io/HtVENKQ.th.png' },https://iili.io/HDJkYKl.jpg
       { name: 'Muhaimin H.R', department: 'Sastra Jepang', image: 'https://iili.io/HDJkYKl.jpg' },
-      { name: 'Herlin Endcy Manggalla', department: 'Peternakan', image: 'https://iili.io/HtVEvHP.th.png' },
+      { name: 'Herlin Endcy Mangalla', department: 'Peternakan', image: 'https://iili.io/HtVEvHP.th.png' },
       { name: 'Muhammad Brilyan', department: 'Manajemen', image: 'https://iili.io/HtVEeUB.th.png' },
       { name: 'Ahmad Altamis Afham', department: 'Teknik Arsitektur', image: 'https://iili.io/HtVEUDg.th.png' },
       { name: 'Muhammad Amirul Haq', department: 'Sistem Informasi', image: 'https://iili.io/HtVE6iv.th.png' },
