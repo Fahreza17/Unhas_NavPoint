@@ -60,7 +60,7 @@ const coordinators = [
       { name: 'Nurul Istiqhoma', department: 'Sastra Inggris', image: 'https://iili.io/HtVcja9.th.png' },
       { name: 'Syifa Puspita Sari Putri A', department: 'Sastra Inggris', image: 'https://iili.io/HtVcNyu.th.png' },
       { name: 'Andi Harfiah', department: 'Manajemen', image: 'https://iili.io/HtVccps.th.png' },
-      { name: 'Natachya Aurelia Almer L', department: 'Farmasi', image: 'https://iili.io/HtVch37.th.png' },
+      { name: 'Nathacya Aurelia Almer Lisarib', department: 'Farmasi', image: 'https://iili.io/HtVch37.th.png' },
       // Tambahkan anggota lainnya di sini
     ]
   },
