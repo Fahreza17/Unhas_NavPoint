@@ -2,6 +2,7 @@ import React from 'react'
 import { Carousel, Container, Row, Col, Accordion } from 'react-bootstrap'
 import NavbarComp from '../../components/NavbarComp'
 import Footer from '../../components/Footer'
+import PDFViewer from '../../components/PDFViewer'
 import '../../components/fonts/font.css'
 import './Home.css'
 import * as ImgList from '../../components/ImageList'
@@ -579,6 +580,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
+                <PDFViewer />
               </Accordion.Body>
             </Accordion.Item>
 
